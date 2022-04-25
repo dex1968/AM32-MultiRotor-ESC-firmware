@@ -167,13 +167,13 @@
 #include "peripherals.h"
 #include "common.h"
 
-//#define FIXED_DUTY_MODE  // bypasses signal input and arming, uses a set duty cycle. For pumps, slot cars etc
+
 #define VERSION_MAJOR 1
 #define VERSION_MINOR 88
 
 //firmware build options !! fixed speed and duty cycle modes are not to be used with sinusoidal startup !!
 
-//#define FIXED_DUTY_MODE  // bypasses signal input and arming, uses a set duty cycle. For pumps, slot cars etc
+#define FIXED_DUTY_MODE  // bypasses signal input and arming, uses a set duty cycle. For pumps, slot cars etc
 //#define FIXED_DUTY_MODE_POWER 100     // 0-100 percent not used in fixed speed mode
 
 //#define FIXED_SPEED_MODE  // bypasses input signal and runs at a fixed rpm using the speed control loop PID
