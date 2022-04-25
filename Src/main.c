@@ -167,7 +167,7 @@
 #include "peripherals.h"
 #include "common.h"
 
-
+//#define FIXED_DUTY_MODE  // bypasses signal input and arming, uses a set duty cycle. For pumps, slot cars etc
 #define VERSION_MAJOR 1
 #define VERSION_MINOR 88
 
